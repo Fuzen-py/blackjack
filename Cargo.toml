@@ -1,0 +1,6 @@
+[package]
+authors = ["Fuzen-py <fuzen@protonmail.com>"]
+name = "blackjack"
+version = "0.1.0"
+[dependencies]
+rand = "0.3.16"
