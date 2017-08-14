@@ -68,7 +68,7 @@ fn main() {
             player2 = cmp_hit(player2);
             break;
         }
-
+        å
     }
     if player1 == player2 {
         println!("It's a tie!");
