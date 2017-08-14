@@ -26,7 +26,7 @@ fn draw_card(value: u32) -> u32 {
     let keys = deck.keys().collect::<Vec<&String>>();
     let nv = deck[keys[rand::thread_rng().gen_range(0, keys.len())]];
     if (nv == 11) & (value > 10) {
-        1
+        value + 1
     } else {
         nv + value
     }
