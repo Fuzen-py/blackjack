@@ -91,7 +91,8 @@ fn main() {
         return;
     }
     if player1 > player2 {
-        println!("You Win!")
+        println!("You Win!");
+        return;
     }
     println!("You lose!");
 }
